@@ -1,0 +1,175 @@
+html {
+    font-family: "helvetica neue";
+    color: #333;
+}
+
+.container {
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*margin-left: -25%;*/
+    /*margin-top: 180px;*/
+    width: 950px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.linkbtn {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
+    float: right;
+    margin-right: 25px;
+    margin-top: -21px;
+    padding: 4px;
+    border: 1px solid #FFFFFF;
+    background-color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+.select-a-server {
+    font-weight: bold;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+    margin-top: 140px;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0.2px;
+    line-height: 27px;
+}
+
+.edit {
+    position: absolute;
+    left: 25px;
+    top: 10px;
+}
+
+.cancel-select {
+    font-size: 14px;
+    color: #CCCCCC;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 44px;
+}
+
+.overlay {
+    position: absolute;
+    /*border-radius: 3px;*/
+    width: 270px;
+    height: 420px;
+    background-color: #999;
+    opacity: .95;
+    z-index: 1000;
+}
+
+#value-full span {
+    color: #333;
+}
+
+/*.value-full span:hover {
+    color: #3CCB5A;
+}*/
+
+.selectable:hover {
+    border-color: #3CCB5A;
+    cursor: pointer;
+}
+
+.selected {
+    /*z-index: 10;*/
+    background-color: green;
+}
+
+/*.server-box:hover img {
+    margin-bottom: 2px;
+    display: block;
+}*/
+
+.linkbtn:hover {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+.linkbtn img {
+    margin-bottom: 5px;
+    /*display: none;*/
+    /*display: none;*/
+}
+
+p.left {
+    font: 14px/24px "helvetica neue";
+    font-weight: 400;
+    color: #ccc;
+    margin: 27px 0 0 25px;
+    float: left;
+    width: 110px;
+}
+
+p.link-label {
+    font: 14px/24px "helvetica neue";
+    font-weight: 400;
+    color: #ccc;
+    margin: 27px 0 0 25px;
+    float: left;
+    width: 100%;
+}
+
+p.right {
+    font: 13px/24px "source code pro";
+    margin: 28px 0 0 0;
+}
+
+p.value-blank {
+    font: 13px/24px "source code pro";
+    color: #ccc;
+    margin-left: 25px;
+}
+
+p#value-full {
+    font: 13px/24px "source code pro";
+    color: #ccc;
+    margin-left: 25px;
+}
+
+p#value-full:hover {
+    color: #3CCB5A;
+    cursor: pointer;
+}
+
+p#value-full:hover > span {
+    color: #3CCB5A;
+    /*cursor: pointer;*/
+}
+
+/*p.value-full:hover + #other-server-1 {
+    border-color: blue;
+}*/
+
+.server-box {
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 1px 3px 0px rgba(102,102,102,0.20);
+    border-radius: 3px;
+    width: 270px;
+    height: 420px;
+    /*margin: auto;*/
+    float: left;
+    margin: 15px 15px 15px 15px;
+}
+
+.highlighted {
+    border-color: #3CCB5A;
+}

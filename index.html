@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Runnable</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="server-box" id="server-box">
+            <div class="overlay hidden" id="overlay">
+                <p class="select-a-server">select a server to link to api</p>
+                <p class="cancel-select">cancel link</p>
+            </div>
+            <h2>api</h2>
+            <p class="left">Branch<br>Framework<br>Ports<br>Command</p>
+            <p class="right">master<br>js v0.12.18<br>80, 8000, &hellip;<br>npm start</p>
+            <p class="link-label">Links to other servers</p>
+            <button class="linkbtn" id="linkbtn">
+                <img src="plus.svg">
+            </button>
+            <div id="gonna-change"><p class="value-blank">(none)</p></div>
+            <p class="link-label">Other environment variables</p>
+            <div class="linkbtn">
+                <img src="plus.svg">
+            </div>
+            <p class="value-blank">(none)</p>
+        </div>
+        <div class="server-box" id="other-server-1">
+            <h2>another server</h2>
+            <p class="left">Branch<br>Framework<br>Ports<br>Command</p>
+            <p class="right">master<br>js v0.12.18<br>80, 8000, &hellip;<br>npm start</p>
+            <p class="link-label">Links to other servers</p>
+            <div class="linkbtn">
+                <img src="plus.svg">
+            </div>
+            <p class="value-blank">(none)</p>
+            <p class="link-label">Other environment variables</p>
+            <div class="linkbtn">
+                <img src="plus.svg">
+            </div>
+            <p class="value-blank">(none)</p>
+        </div>
+        <div class="server-box" id="other-server-2">
+            <h2>runnable-angular</h2>
+            <p class="left">Branch<br>Framework<br>Ports<br>Command</p>
+            <p class="right">master<br>js v0.12.18<br>80, 8000, &hellip;<br>npm start</p>
+            <p class="link-label">Links to other servers</p>
+            <div class="linkbtn">
+                <img src="plus.svg">
+            </div>
+            <p class="value-blank">(none)</p>
+            <p class="link-label">Other environment variables</p>
+            <div class="linkbtn">
+                <img src="plus.svg">
+            </div>
+            <p class="value-blank">(none)</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
